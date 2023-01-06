@@ -38,7 +38,7 @@ int main(int argc , char** argv){
     else many = v2[1];
 
     
-    int range = v[v.size()-1] - v[0];
+    int range =v.back() - v.front();
     
-    cout << round((double)sum / N) << "\n" << mid << "\n" << many << "\n" << range << "\n";
+    cout << (int)round((double)sum / N) << "\n" << mid << "\n" << many << "\n" << range << "\n";
 }
