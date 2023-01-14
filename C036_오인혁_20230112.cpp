@@ -7,6 +7,11 @@ int nanjangi[9];
 
 void DFS(int n ,int total , vector<int> v){
 
+    ios_base::sync_with_stdio(false);
+    cin.tie(0);
+    cout.tie(0);
+
+
     if(n == 9){
         if(total == 100 && v.size() == 7) 
         {
